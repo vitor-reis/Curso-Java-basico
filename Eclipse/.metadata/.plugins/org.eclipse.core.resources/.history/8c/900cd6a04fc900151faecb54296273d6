@@ -1,0 +1,20 @@
+package com.vitor.cursojava.exercicios;
+
+public class _07_aula13 {
+
+	public static void main(String[] args) {
+		
+		/*Faça um programa que calcule a área de um quadrado, em 
+		  seguida mostre o dobro desta área para o usuario.*/
+		
+		int lado1 = 21;
+		int lado2 = 21;
+		
+		int resultado = lado1 * lado2;
+		
+		System.out.println("Um lado de um quadrado qualquer mede "
+				+ "21m, respectivamente a área desse quadrado será: " + resultado + "metros.");
+		
+	}
+
+}

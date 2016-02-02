@@ -1,0 +1,29 @@
+package com.vitor.cursojava.exercicios;
+
+import java.util.Scanner;
+
+public class _08_aula13 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * Faça um programa que pergunte quanto você ganha por hora e o
+		número de horas trabalhadas no mês. Calcule e mostre o total 
+		do seu salário no referido mês.
+		
+		*/
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Quanto você ganha por hora?");
+		double valorDaHora = scan.nextDouble();
+		System.out.println("Quantas horas você trabalhou mês passado?");
+		double horasTrabalhadas = scan.nextDouble();
+		
+		double resultado = valorDaHora * horasTrabalhadas;
+		System.out.println("Mês passado seu salario foi de: " + resultado + " Reais.");
+		
+
+	}
+
+}

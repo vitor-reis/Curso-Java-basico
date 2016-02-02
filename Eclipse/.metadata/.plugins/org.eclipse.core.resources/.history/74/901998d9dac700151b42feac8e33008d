@@ -1,0 +1,15 @@
+package com.vitor.cursojava.aula11;
+
+public class VariaveisBoolean {
+
+	public static void main(String[] args) {
+		
+		boolean verdadeiro = true;
+		boolean falso = false;		
+	
+		System.out.println("Moro em Jaguaquara = " + verdadeiro);
+		System.out.println("Moro em Jequie = " + falso);
+		
+	}
+
+}

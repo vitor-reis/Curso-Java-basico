@@ -1,0 +1,13 @@
+package com.vitor.cursojava.aula10;
+
+public class Variaveis {
+
+	public static void main(String[] args) {
+
+		int idade = 18;
+		String nome = "Vitor Reis";
+		String nomeDoMeuCachorro;
+	System.out.println("Tenho = " + idade + " Anos");	
+	}
+
+}

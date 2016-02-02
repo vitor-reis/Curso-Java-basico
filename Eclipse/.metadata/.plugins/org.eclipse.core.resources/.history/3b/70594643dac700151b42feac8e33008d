@@ -1,0 +1,23 @@
+package com.vitor.cursojava.aula11;
+
+public class Variaveisinteiras {
+
+	public static void main(String[] args) {
+		
+		// Essas variaveis são para números inteiros
+		
+		byte idade01 = 20;  // Pequenos números >> Menos Usado
+		short idade02 = 21; // Números entre pequenos e medianos >> Menos usado
+		int idade03 = 22;   // Números grandes >> Muito usado
+		long idade04 = 23;  // Números muito grandes >> Muito usado
+		int data = 2014;
+		
+		System.out.println("Idade e Data " + data + " tenho " + idade01);
+		System.out.println("Idade e Data " + data + " tenho " + idade02);
+		System.out.println("Idade e Data " + data + " tenho " + idade03);
+		System.out.println("Idade e Data " + data + " tenho " + idade04);
+		System.out.println("Idade e Data " + data + " tenho " + idade04);
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.vitor.cursojava.aula12;
+
+import java.util.Scanner;
+
+public class LeituraDeDadosDoTeclado {
+
+	public static void main(String[] args) {
+		
+		Scanner escaneando = new Scanner(System.in);
+		
+		System.out.println("Digite seu nome completo:");
+		String nomeCompleto = scan.nextLine();
+	}
+
+}

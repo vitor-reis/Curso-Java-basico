@@ -1,0 +1,22 @@
+package com.vitor.cursojava.exercicios;
+
+import java.util.Scanner;
+
+public class _08_aula13 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Quanto você ganha por hora?");
+		double valorDaHora = scan.nextDouble();
+		System.out.println("Quantas horas você trabalhou mês passado?");
+		double horasTrabalhadas = scan.nextDouble();
+		
+		double resultado = valorDaHora * horasTrabalhadas;
+		System.out.println("Mês passado seu salario foi de: " + resultado + " Reais.");
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.vitor.cursojava.aula11;
+
+public class DeverDeCasa {
+
+	public static void main(String[] args) {
+		
+		char alfa = 254;
+		String nomeDaMinhaMae = "Eunice";
+		int idade = 42;
+		double meuDinheiro = 27.35;
+		
+		System.out.println("Alfa = " + alfa);
+		System.out.println("Nome da Minha Mae " +nomeDaMinhaMae);
+		System.out.println("Idade da Minha Mae "+ idade +" Anos");
+		System.out.println("My Money "+ meuDinheiro);
+		System.out.println("Idade Menor que 18 = " + idade);
+	
+		
+	}
+
+}

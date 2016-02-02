@@ -1,0 +1,17 @@
+package com.vitor.cursojava.exercicios;
+
+public class _03_aula13 {
+
+	public static void main(String[] args) {
+		
+		/* Faça um programa que peça dois números e imprima a soma. */
+		
+		int number1 = 18;
+		int number2 = 12;
+		int resultado = number1 + number2;
+		
+		System.out.print("A soma de 18 + 12 é: " + resultado);
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.vitor.cursojava.aula12;
+
+import java.util.Scanner;
+
+public class LeituraDeDadosDoTeclado {
+
+	public static void main(String[] args) {
+		
+	Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite seu nome completo:");
+		String nomeCompleto = scan.nextLine();
+		
+	// o nextLine deve ter o mesmo nome dado ao "Scanner" nesse caso foi o "scan".
+	// Poderia ser 
+		Scanner escaneando = new Scanner(System.in);
+		
+		System.out.println("Digite seu nome completo seu burro:");
+		String nomeComplet = escaneando.nextLine();
+		
+		System.out.println("Seu nome completo é " + nomeCompleto);
+		System.out.println("Seu nome completo é " + nomeComplet);
+	}
+
+}

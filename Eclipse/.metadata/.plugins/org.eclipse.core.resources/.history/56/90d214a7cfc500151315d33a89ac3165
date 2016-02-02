@@ -1,0 +1,21 @@
+package com.vitor.cursojava.aula11;
+
+public class Variaveisinteiras {
+
+	public static void main(String[] args) {
+		
+		byte idade01 = 20;
+		short idade02 = 21;
+		int idade03 = 22;
+		long idade04 = 23;
+		int data = 2014
+		
+		System.out.println("Idade e Data " + data + " tenho ") + idade01;
+		System.out.print("Idade e Data " + data + 1 + " tenho " + idade02);
+		System.out.print("Idade e Data " + data + 2 + " tenho " + idade03);
+		System.out.print("Idade e Data " + data + 3 + " tenho " + idade04);
+		System.out.print("Idade e Data " + data + 4 + " tenho " + idade04 + 1);
+		
+	}
+
+}

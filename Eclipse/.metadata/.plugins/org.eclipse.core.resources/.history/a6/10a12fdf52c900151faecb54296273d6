@@ -1,0 +1,19 @@
+package com.vitor.cursojava.exercicios;
+
+import java.util.Scanner;
+
+public class _09_aula13 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Temperatura em Firenheit");
+		double tempFiren = scan.nextDouble();
+		double tempCelsius = 5*(tempFiren-32)/9;
+		
+		System.out.println("Temperatura em Celcius: " + tempCelsius + "°");
+		
+	}
+
+}

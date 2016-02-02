@@ -1,0 +1,10 @@
+package com.vitor.apostilaAndPensamentos;
+
+public class PrimeiraAula {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.vitor.cursojava.exercicios;
+
+import java.util.Scanner;
+
+public class _05_aula13 {
+
+	public static void main(String[] args) {
+		
+		/* Faça um programa que converta metros em centimetros
+		 * 
+		 */
+
+		Scanner scan = new Scanner(System.in);
+		
+		double centimetros = 100;
+		
+		System.out.println("Conversor de Metros em Centimetros""\p");
+		System.out.println("Digite o valor em metros: ");
+		double valor = scan.nextDouble();
+		double resultado = valor * centimetros;
+		System.out.println("Resultado em centimetros: " + resultado);
+		
+		
+	}
+
+}

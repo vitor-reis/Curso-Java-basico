@@ -1,0 +1,13 @@
+package com.vitor.cursojava.aula13;
+
+public class OperadoresAritiméticos {
+
+	public static void main(String[] args) {
+		
+	int resultado = 1 +2;
+	System.out.println(resultado);
+	
+
+	}
+
+}

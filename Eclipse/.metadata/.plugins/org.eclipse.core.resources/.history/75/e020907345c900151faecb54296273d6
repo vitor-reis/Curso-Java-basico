@@ -1,0 +1,14 @@
+package com.vitor.cursojava.exercicios;
+
+public class Exercicios {
+
+	public static void main(String[] args) {
+		
+		String name = "Alô";
+		String name1 = " mundo.";
+		
+		System.out.print(name + name1);
+
+	}
+
+}

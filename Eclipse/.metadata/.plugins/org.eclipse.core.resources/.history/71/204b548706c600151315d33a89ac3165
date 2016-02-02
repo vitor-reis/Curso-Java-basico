@@ -1,0 +1,17 @@
+package com.vitor.cursojava.aula11;
+
+public class DeverDeCasa {
+
+	public static void main(String[] args) {
+		
+		char alfa = 224;
+		String nomeDaMinhaMae = "Eunice";
+		long idade = 42;
+		double meuDinheiro = 27.35;
+		
+		System.out.println("Alfa = " + alfa "\n\r" + "Nome da Minha Mae " +nomeDaMinhaMae+ "Idade da Minha Mae "+ idade +" Anos" + "Meu Money "+ meuDinheiro   );
+		
+		
+	}
+
+}

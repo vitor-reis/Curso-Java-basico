@@ -1,0 +1,13 @@
+package com.vitor.cursojava.exercicios;
+
+public class _02_aula13 {
+
+	public static void main(String[] args) {
+		
+		int number = 81;
+		
+		System.out.print("O número informado foi: " + number);
+
+	}
+
+}

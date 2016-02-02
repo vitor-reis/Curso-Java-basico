@@ -1,0 +1,24 @@
+package com.vitor.apostilaAndPensamentos;
+
+public class PrimeiraAula {
+
+	public static void main(String[] args) {
+		
+		// Gasto de uma empresa nos 3 primeiros meses do ano
+		int gastoJaneiro = 17000;
+		int gastoFevereiro = 23000;
+		int gastoMarço = 33000;
+		
+		int contasDosUltimosMeses = gastoJaneiro + gastoFevereiro + gastoMarço;
+				
+		System.out.println("Valor gasto nos 3 primeiros meses do ano = " + contasDosUltimosMeses);
+		
+		//Media de gasto dos 3 primeiros meses do ano
+		
+		int mediaDeGastos = contasDosUltimosMeses / 3;
+		
+		System.out.println("Média de gastos dos primeiros 3 meses do ano = " + mediaDeGastos);
+
+	}
+
+}

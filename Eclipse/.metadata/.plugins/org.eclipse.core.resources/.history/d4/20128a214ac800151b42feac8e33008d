@@ -1,0 +1,37 @@
+package com.vitor.cursojava.aula13;
+
+public class OperadoresAritiméticos {
+
+	public static void main(String[] args) {
+	
+		/*
+	int resultado = 1 +2;
+	System.out.println(resultado);
+	
+	resultado = resultado -1;
+	System.out.println(resultado);
+	
+	resultado = resultado * 2;
+	System.out.println(resultado);
+	
+	resultado = resultado / 2;
+	System.out.println(resultado);
+	
+	resultado = resultado + 8;
+	System.out.println(resultado);
+	
+	resultado = resultado % 7;
+	System.out.println(resultado);
+	
+	String prieiroNome = "Esta é";
+	String segundoNome = " uma string concatenada.";
+	String frase = prieiroNome + segundoNome;
+	System.out.println(frase);
+	
+	*/
+		resultado = resultado + 1;
+		
+
+	}
+
+}
